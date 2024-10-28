@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  padding-left: 13px;
+}
+
+p {
+  list-style: none;
+  margin: 0;
+
+}
+
+img {
+  width: 6rem;
+}
+
+ul {
+  display: flex;
+}
+
+#form-cont {
+  width: 28rem;
+  padding: 2rem;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 12rem;
+  border: 1px solid black;
+  background-color: rgb(167, 167, 96);
+  border-radius: .5rem;
+}
+
+form {
+  margin-top: 5rem;
+  margin-right: 6rem;
+}
+
+label {
+  padding: 5px;
+}
+
+.end {
+  position: absolute;
+  right: 4rem;
+  background-color: antiquewhite;
+  padding: 1rem;
+}
+
+.container {
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+
+.lab {
+  padding: 12px;
+}
+
+.inp {
+
+  margin-left: 5rem;
+}
+
+.inp2 {
+  margin-left: 3rem;
+}
+
+.butt {
+
+  background-color: antiquewhite;
+  color: black;
+  margin: 2rem 9rem;
+}
+
+.button {
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 5px;
+  border-color: pink;
+  margin-top: 3px;
+}
+
+.butt:hover {
+  background-color: rgb(247, 209, 243);
+  ;
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.black {
+  color: black;
+}
+
+.side {
+  margin-left: 7rem;
+  width: 14rem;
+  margin-top: 0rem;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: antiquewhite;
+  width: 26rem;
+  height: 8rem;
+  padding-left: 13px;
+}
